@@ -1,0 +1,69 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5" pages="2">
+  <diagram id="ECDbFmgX1RaR24ZU-CUf" name="Docker">
+    <mxGraphModel dx="2182" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7RpBUj7KZwAEIFn-h3G8-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7RpBUj7KZwAEIFn-h3G8-1" target="7RpBUj7KZwAEIFn-h3G8-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7RpBUj7KZwAEIFn-h3G8-1" value="&lt;h1&gt;What is Docker&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-470" y="180" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7RpBUj7KZwAEIFn-h3G8-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7RpBUj7KZwAEIFn-h3G8-2" target="7RpBUj7KZwAEIFn-h3G8-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7RpBUj7KZwAEIFn-h3G8-2" value="&lt;h1&gt;Why we use Docker&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-470" y="360" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7RpBUj7KZwAEIFn-h3G8-6" value="&lt;h1&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Docker is a platform that lets you package and run applications in isolated containers.&lt;/span&gt;&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="180" width="650" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7RpBUj7KZwAEIFn-h3G8-7" value="&lt;h1&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;To ensure applications run the same way across different environments, making them easy to deploy and manage.&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="360" width="650" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Setup" id="G27kInZC2YA1w9EkZY-Q">
+    <mxGraphModel dx="1332" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SOkX2tPb0BwLYVuWBXrl-1" value="&lt;h2&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;Docker Setup&lt;/font&gt;&lt;/h2&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="80" y="90" width="710" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="SOkX2tPb0BwLYVuWBXrl-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="SOkX2tPb0BwLYVuWBXrl-2" target="SOkX2tPb0BwLYVuWBXrl-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SOkX2tPb0BwLYVuWBXrl-2" value="&lt;h2&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;On Windows/Mac?&lt;/font&gt;&lt;/h2&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="80" y="270" width="320" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="SOkX2tPb0BwLYVuWBXrl-3" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=0.167;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="239.5" y="200" as="sourcePoint" />
+            <mxPoint x="239.5" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SOkX2tPb0BwLYVuWBXrl-4" value="&lt;h2&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;Just Install Docker Desktop&lt;/font&gt;&lt;/h2&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="80" y="430" width="320" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="SOkX2tPb0BwLYVuWBXrl-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="SOkX2tPb0BwLYVuWBXrl-7" target="SOkX2tPb0BwLYVuWBXrl-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SOkX2tPb0BwLYVuWBXrl-7" value="&lt;h2&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;On Linux?&lt;/font&gt;&lt;/h2&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="480" y="270" width="320" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="SOkX2tPb0BwLYVuWBXrl-8" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=0.167;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="200" as="sourcePoint" />
+            <mxPoint x="650" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SOkX2tPb0BwLYVuWBXrl-9" value="&lt;h2&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;Have to Install with CLI&lt;/font&gt;&lt;/h2&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="480" y="430" width="320" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
