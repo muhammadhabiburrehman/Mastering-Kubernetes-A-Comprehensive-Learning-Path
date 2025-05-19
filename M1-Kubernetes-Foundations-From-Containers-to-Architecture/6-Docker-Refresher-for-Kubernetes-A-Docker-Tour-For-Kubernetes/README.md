@@ -166,16 +166,7 @@ These basic commands are essential for managing Docker containers and images. By
 - [Docker Hub](https://hub.docker.com/)
 - [Docker Community Forums](https://forums.docker.com/)
 ---
-## Watch the Video
 
-If you want a complete walkthrough of Docker commands and container management and want to see these commands in action and learn how to use Docker effectively, check out my YouTube video:
-
-
-[**Docker Refresher for Kubernetes | A Tour**](<Your YouTube Video Link Here>)
-
-(... previous content remains the same ...)
-
----
 ## Watch the Video
 
 If you want a complete walkthrough of Docker commands and container management and want to see these commands in action and learn how to use Docker effectively, check out my YouTube video:
