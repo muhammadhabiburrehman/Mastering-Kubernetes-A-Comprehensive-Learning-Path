@@ -1,0 +1,133 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5" pages="4">
+  <diagram id="gAYdXjUNncmHdWPE2obz" name="Specialty ">
+    <mxGraphModel dx="1960" dy="480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cA3IM-Q1EOG92NS_MxhU-1" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Shared Network&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-642.5" y="180" width="352.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cA3IM-Q1EOG92NS_MxhU-2" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Shared Storage&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-642.5" y="250" width="352.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cA3IM-Q1EOG92NS_MxhU-3" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Communication inside a pod through &lt;b&gt;LOCALHOST:&amp;lt;port&amp;gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-642.5" y="325" width="352.5" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="cA3IM-Q1EOG92NS_MxhU-4" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;What Makes a Pod Special?&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-681.25" y="60" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cA3IM-Q1EOG92NS_MxhU-5" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="200" width="37.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cA3IM-Q1EOG92NS_MxhU-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Will Discuss a lot on &lt;b&gt;How&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-252.5" y="230" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cA3IM-Q1EOG92NS_MxhU-7" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Communication outside a pod through &lt;b&gt;POD&#39;s IP:&amp;lt;port&amp;gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-642.5" y="410" width="352.5" height="75" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Pod" id="kKdpJ-KVQG9oQRPMaN4-">
+    <mxGraphModel dx="1332" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cMvnpwVAHBV6d5w7npoy-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="450" y="140" width="310" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="cMvnpwVAHBV6d5w7npoy-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="490" y="180" width="240" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="cMvnpwVAHBV6d5w7npoy-3" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;App&#39;s Container&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="510" y="210" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cMvnpwVAHBV6d5w7npoy-4" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="740" y="180" width="70" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="cMvnpwVAHBV6d5w7npoy-5" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;A Pod is a &lt;b&gt;group of one or more containers&lt;/b&gt; that work together&lt;/span&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="820" y="240" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cMvnpwVAHBV6d5w7npoy-6" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;Node&lt;/b&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="100" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cMvnpwVAHBV6d5w7npoy-7" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;Pod&lt;/b&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="580" y="140" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cMvnpwVAHBV6d5w7npoy-8" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;10.0.0.0&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="555" y="420" width="110" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="3vphzQFlbhJN3P0PEUs6" name="Stages">
+    <mxGraphModel dx="880" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SavWiwwcGqlZREGLFCu0-1" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Pending&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="150" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SavWiwwcGqlZREGLFCu0-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;The Pod is created but isn&#39;t running yet.&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="270" y="180" width="630" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SavWiwwcGqlZREGLFCu0-3" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Running&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="150" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SavWiwwcGqlZREGLFCu0-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;The Pod is now assigned to a node, and at least one container is running&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="270" y="250" width="630" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SavWiwwcGqlZREGLFCu0-5" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Succeeded&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="150" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SavWiwwcGqlZREGLFCu0-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;All containers completed successfully and won’t restart.&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="270" y="320" width="630" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SavWiwwcGqlZREGLFCu0-7" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Failed&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="150" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SavWiwwcGqlZREGLFCu0-8" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;At least one container failed or stopped with an error.&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="270" y="390" width="630" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SavWiwwcGqlZREGLFCu0-9" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Unknown&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="150" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SavWiwwcGqlZREGLFCu0-10" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Kubernetes can’t determine the Pod’s state, usually due to communication issues.&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="270" y="460" width="630" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SavWiwwcGqlZREGLFCu0-12" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;Pod Lifecycle Stages&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="150" y="90" width="330" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Container States" id="mW06vASlyqrysP6Z4gnO">
+    <mxGraphModel dx="880" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="i6iAezJG4EfZkFpuGkoC-0" />
+        <mxCell id="i6iAezJG4EfZkFpuGkoC-1" parent="i6iAezJG4EfZkFpuGkoC-0" />
+        <mxCell id="i6iAezJG4EfZkFpuGkoC-2" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Waiting&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="i6iAezJG4EfZkFpuGkoC-1" vertex="1">
+          <mxGeometry x="40" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i6iAezJG4EfZkFpuGkoC-3" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;The container is getting ready to start, e.g., downloading the image.&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="i6iAezJG4EfZkFpuGkoC-1" vertex="1">
+          <mxGeometry x="160" y="180" width="630" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i6iAezJG4EfZkFpuGkoC-4" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Running&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="i6iAezJG4EfZkFpuGkoC-1" vertex="1">
+          <mxGeometry x="40" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i6iAezJG4EfZkFpuGkoC-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;The container is actively running without issues.&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="i6iAezJG4EfZkFpuGkoC-1" vertex="1">
+          <mxGeometry x="160" y="250" width="630" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i6iAezJG4EfZkFpuGkoC-6" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Terminated&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="i6iAezJG4EfZkFpuGkoC-1" vertex="1">
+          <mxGeometry x="40" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i6iAezJG4EfZkFpuGkoC-7" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;The container has stopped, either successfully or due to an error.(can check with exit code)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="i6iAezJG4EfZkFpuGkoC-1" vertex="1">
+          <mxGeometry x="160" y="320" width="630" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i6iAezJG4EfZkFpuGkoC-12" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;Container States Inside a Pod&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="i6iAezJG4EfZkFpuGkoC-1" vertex="1">
+          <mxGeometry x="40" y="90" width="330" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
