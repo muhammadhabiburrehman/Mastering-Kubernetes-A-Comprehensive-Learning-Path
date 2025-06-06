@@ -1,0 +1,48 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5" pages="2">
+  <diagram id="2ILT0HnOOTYNZeyyB_Q7" name="When to Use">
+    <mxGraphModel dx="1110" dy="480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Z6GHd0Xzmv4rTHYBa2gR-5" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Do they need to be run together or can they run on different hosts?&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="100" y="280" width="700" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6GHd0Xzmv4rTHYBa2gR-6" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Do they represent a single whole or are they independent components?&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="100" y="350" width="700" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6GHd0Xzmv4rTHYBa2gR-7" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Must they be scaled together or individually?&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="100" y="420" width="700" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6GHd0Xzmv4rTHYBa2gR-8" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Deciding When To Use Multiple Containers&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="200" y="160" width="500" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Architecture" id="2lQxKJPPRTdizJslm3ES">
+    <mxGraphModel dx="1110" dy="480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xI4_6vkgksKyY2Rwgydm-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Building a Web Server&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="210" y="110" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xI4_6vkgksKyY2Rwgydm-3" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Writing Its Dockerfile for containerization&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="210" y="180" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xI4_6vkgksKyY2Rwgydm-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Pushing the Image On DockerHub&amp;nbsp;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="210" y="250" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xI4_6vkgksKyY2Rwgydm-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Deploying the App In Kubernetes&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="210" y="320" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xI4_6vkgksKyY2Rwgydm-7" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Accessing the App from our Browser&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="210" y="390" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5mcEnWd-J-AmvQ6ve0I0-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;App&#39;s Flow&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="90" y="20" width="210" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
