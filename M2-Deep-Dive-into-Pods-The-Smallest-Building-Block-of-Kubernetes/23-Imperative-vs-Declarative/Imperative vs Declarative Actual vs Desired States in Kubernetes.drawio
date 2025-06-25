@@ -1,0 +1,423 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5" pages="8">
+  <diagram id="6PTQOH2q2wKLM2SAtwNk" name="Communication">
+    <mxGraphModel dx="1034" dy="1628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8ETIz4OBCz28a5elbN1w-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="100" y="-50" width="680" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="8ETIz4OBCz28a5elbN1w-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="120" width="280" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="8ETIz4OBCz28a5elbN1w-3" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Container2&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="20" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8ETIz4OBCz28a5elbN1w-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Container1&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="130" y="20" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8ETIz4OBCz28a5elbN1w-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Kube-Proxy&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="290" y="240" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8ETIz4OBCz28a5elbN1w-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8ETIz4OBCz28a5elbN1w-9" target="8ETIz4OBCz28a5elbN1w-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="185" y="-20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8ETIz4OBCz28a5elbN1w-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8ETIz4OBCz28a5elbN1w-9" target="8ETIz4OBCz28a5elbN1w-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="325" y="-20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8ETIz4OBCz28a5elbN1w-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="8ETIz4OBCz28a5elbN1w-9" target="8ETIz4OBCz28a5elbN1w-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8ETIz4OBCz28a5elbN1w-9" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Container Runtime (e.g Docker, containerd)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="540" y="-30" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8ETIz4OBCz28a5elbN1w-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="8ETIz4OBCz28a5elbN1w-12" target="8ETIz4OBCz28a5elbN1w-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8ETIz4OBCz28a5elbN1w-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8ETIz4OBCz28a5elbN1w-12" target="8ETIz4OBCz28a5elbN1w-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8ETIz4OBCz28a5elbN1w-12" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Kubelet&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="540" y="132.5" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8ETIz4OBCz28a5elbN1w-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="8ETIz4OBCz28a5elbN1w-14" target="8ETIz4OBCz28a5elbN1w-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8ETIz4OBCz28a5elbN1w-14" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Container Runtime Interface (CRI)&lt;/font&gt;" style="text;align=left;verticalAlign=middle;rounded=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="520" y="102.5" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8ETIz4OBCz28a5elbN1w-15" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Pull Images, Create, start, stop, and remove containers&lt;/b&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="-50" width="420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8ETIz4OBCz28a5elbN1w-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.436;entryY=0.986;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8ETIz4OBCz28a5elbN1w-12" target="8ETIz4OBCz28a5elbN1w-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8ETIz4OBCz28a5elbN1w-17" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Also &lt;strong&gt;directly monitors the health and status&lt;/strong&gt; of containers through &lt;strong&gt;probes&lt;/strong&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="107.5" y="162.5" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8ETIz4OBCz28a5elbN1w-18" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="130" y="340" width="620" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="8ETIz4OBCz28a5elbN1w-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="8ETIz4OBCz28a5elbN1w-21" target="8ETIz4OBCz28a5elbN1w-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8ETIz4OBCz28a5elbN1w-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.881;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="8ETIz4OBCz28a5elbN1w-26" target="8ETIz4OBCz28a5elbN1w-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8ETIz4OBCz28a5elbN1w-21" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;API-Server&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="340" y="340" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8ETIz4OBCz28a5elbN1w-22" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Controller Manager&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="150" y="420" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8ETIz4OBCz28a5elbN1w-23" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;etcd cluster&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="500" y="420" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8ETIz4OBCz28a5elbN1w-24" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;kube-Scheduler&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="330" y="530" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8ETIz4OBCz28a5elbN1w-25" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;&lt;i&gt;Container1 had a issue but I fixed&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;" style="text;align=left;verticalAlign=middle;rounded=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="450" y="290" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8ETIz4OBCz28a5elbN1w-26" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;&lt;i&gt;OK, (then Updates the Status)&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;" style="text;align=left;verticalAlign=middle;rounded=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="330" y="370" width="260" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Z_Jl8vPigYecr2WORZ6q" name="Objects">
+    <mxGraphModel dx="1038" dy="440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="k6gtMXOVK9Rb0dqUsFgt-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;(Kind of)&amp;nbsp;&lt;b&gt;Objects&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="10" y="290" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="k6gtMXOVK9Rb0dqUsFgt-2" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;Pod&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="340" y="200" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k6gtMXOVK9Rb0dqUsFgt-3" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;Service&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="340" y="270" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k6gtMXOVK9Rb0dqUsFgt-4" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;ReplicaSet&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="340" y="340" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k6gtMXOVK9Rb0dqUsFgt-5" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;Deployment&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="340" y="410" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k6gtMXOVK9Rb0dqUsFgt-6" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="290" y="210" width="40" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="k6gtMXOVK9Rb0dqUsFgt-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="k6gtMXOVK9Rb0dqUsFgt-1" target="k6gtMXOVK9Rb0dqUsFgt-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k6gtMXOVK9Rb0dqUsFgt-8" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Building blocks that define what should run in your system, how it should run, and how it should behave&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="520" y="230" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k6gtMXOVK9Rb0dqUsFgt-9" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Every Object serves different purpose like, running a container, setting up networking, monitoring the container&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="520" y="410" width="280" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="vF0pgFl6tzrInbUABcQt" name="Methods">
+    <mxGraphModel dx="1034" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vFCe4z25TtfDRieaK-PL-1" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;&lt;b&gt;Imperative Approach&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="120" y="160" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vFCe4z25TtfDRieaK-PL-2" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;&lt;b&gt;Declarative Approach&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="460" y="160" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vFCe4z25TtfDRieaK-PL-3" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 18px;&quot;&gt;Run commands step by step&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;to achieve the &lt;b&gt;desired result&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="110" y="280" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vFCe4z25TtfDRieaK-PL-5" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: 18px; background-color: initial;&quot;&gt;Define the desired setup in a &lt;b&gt;configuration file&lt;/b&gt;, and let the system apply it automatically, to have &lt;b&gt;actual state&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="460" y="284" width="260" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="-j-nJC2EilCbpfwIPsvd" name="Desired vs Actual">
+    <mxGraphModel dx="880" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nGT2ez9fwnAsm5Vk4-o1-1" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;&lt;b&gt;Desired State&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="100" y="160" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="nGT2ez9fwnAsm5Vk4-o1-2" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;&lt;b&gt;Actual State&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="420" y="160" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4glvVB79WRVQnuwHkhaS-1" value="&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;What you want your setup to look like.&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="120" y="280" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4glvVB79WRVQnuwHkhaS-2" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;What your setup actually looks like right now&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="440" y="280" width="200" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Ppl1tzU5_v_rB0SN2QEw" name="Imperative">
+    <mxGraphModel dx="880" dy="1642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yK_AedI_KfXpGCVOSD3x-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yK_AedI_KfXpGCVOSD3x-1" target="yK_AedI_KfXpGCVOSD3x-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yK_AedI_KfXpGCVOSD3x-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;I want to run 4 containers&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="140" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yK_AedI_KfXpGCVOSD3x-3" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="140" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yK_AedI_KfXpGCVOSD3x-5" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;check current state&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="250" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TBVjc8MO_bloKNQoqmgm-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yK_AedI_KfXpGCVOSD3x-6" target="yK_AedI_KfXpGCVOSD3x-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yK_AedI_KfXpGCVOSD3x-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="115" y="280" width="330" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="yK_AedI_KfXpGCVOSD3x-8" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Dashboard&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="120" y="240" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yK_AedI_KfXpGCVOSD3x-10" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Container&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yK_AedI_KfXpGCVOSD3x-11" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Container&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yK_AedI_KfXpGCVOSD3x-12" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Container&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yK_AedI_KfXpGCVOSD3x-14" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Imaginary command to add a container&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="490" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TBVjc8MO_bloKNQoqmgm-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yK_AedI_KfXpGCVOSD3x-15" target="TBVjc8MO_bloKNQoqmgm-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yK_AedI_KfXpGCVOSD3x-15" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;OK, will add 1 more container&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="540" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TBVjc8MO_bloKNQoqmgm-3" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Hey, Kubernetes add one container plz&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="540" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GqqOv7B3CIWRh4AgyPG3-1" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;&lt;b&gt;Imperative Deployment&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="150" y="-30" width="240" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Imperative2" id="g_6UylsxVdcj6svF8MQx">
+    <mxGraphModel dx="1038" dy="1540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="5cyIJQOkxbvtP1_lE-he-0" />
+        <mxCell id="5cyIJQOkxbvtP1_lE-he-1" parent="5cyIJQOkxbvtP1_lE-he-0" />
+        <mxCell id="5cyIJQOkxbvtP1_lE-he-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="5cyIJQOkxbvtP1_lE-he-1" source="5cyIJQOkxbvtP1_lE-he-3" target="5cyIJQOkxbvtP1_lE-he-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5cyIJQOkxbvtP1_lE-he-3" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;I want to update the frontend container&#39;s version to 2.0&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="5cyIJQOkxbvtP1_lE-he-1" vertex="1">
+          <mxGeometry x="152.5" y="140" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5cyIJQOkxbvtP1_lE-he-4" value="" style="shape=actor;whiteSpace=wrap;html=1;" parent="5cyIJQOkxbvtP1_lE-he-1" vertex="1">
+          <mxGeometry x="100" y="140" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5cyIJQOkxbvtP1_lE-he-5" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;check current state&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="5cyIJQOkxbvtP1_lE-he-1" vertex="1">
+          <mxGeometry x="320" y="250" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5cyIJQOkxbvtP1_lE-he-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="5cyIJQOkxbvtP1_lE-he-1" source="5cyIJQOkxbvtP1_lE-he-7" target="5cyIJQOkxbvtP1_lE-he-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5cyIJQOkxbvtP1_lE-he-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="5cyIJQOkxbvtP1_lE-he-1" vertex="1">
+          <mxGeometry x="115" y="280" width="395" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="5cyIJQOkxbvtP1_lE-he-8" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Dashboard&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="5cyIJQOkxbvtP1_lE-he-1" vertex="1">
+          <mxGeometry x="120" y="240" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5cyIJQOkxbvtP1_lE-he-9" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Container&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="5cyIJQOkxbvtP1_lE-he-1" vertex="1">
+          <mxGeometry x="120" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5cyIJQOkxbvtP1_lE-he-10" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Container&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="5cyIJQOkxbvtP1_lE-he-1" vertex="1">
+          <mxGeometry x="120" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5cyIJQOkxbvtP1_lE-he-11" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Container&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="5cyIJQOkxbvtP1_lE-he-1" vertex="1">
+          <mxGeometry x="250" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5cyIJQOkxbvtP1_lE-he-12" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Imaginary command to update a container&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="5cyIJQOkxbvtP1_lE-he-1" vertex="1">
+          <mxGeometry x="600" y="500" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5cyIJQOkxbvtP1_lE-he-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="5cyIJQOkxbvtP1_lE-he-1" source="5cyIJQOkxbvtP1_lE-he-14" target="5cyIJQOkxbvtP1_lE-he-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5cyIJQOkxbvtP1_lE-he-14" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Oh, I have to update these specific ones&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="5cyIJQOkxbvtP1_lE-he-1" vertex="1">
+          <mxGeometry x="202.5" y="560" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5cyIJQOkxbvtP1_lE-he-15" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Hey, Kubernetes update the container1, container3, container 28.... plz&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="5cyIJQOkxbvtP1_lE-he-1" vertex="1">
+          <mxGeometry x="550" y="550" width="310" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5cyIJQOkxbvtP1_lE-he-16" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;&lt;b&gt;Imperative Deployment&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="5cyIJQOkxbvtP1_lE-he-1" vertex="1">
+          <mxGeometry x="200" y="-20" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EjtPxB582BVQC0RasJBH-0" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Container&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="5cyIJQOkxbvtP1_lE-he-1" vertex="1">
+          <mxGeometry x="250" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EjtPxB582BVQC0RasJBH-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Container&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="5cyIJQOkxbvtP1_lE-he-1" vertex="1">
+          <mxGeometry x="120" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EjtPxB582BVQC0RasJBH-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Container&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="5cyIJQOkxbvtP1_lE-he-1" vertex="1">
+          <mxGeometry x="250" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EjtPxB582BVQC0RasJBH-3" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Container&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="5cyIJQOkxbvtP1_lE-he-1" vertex="1">
+          <mxGeometry x="380" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EjtPxB582BVQC0RasJBH-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Container&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="5cyIJQOkxbvtP1_lE-he-1" vertex="1">
+          <mxGeometry x="380" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EjtPxB582BVQC0RasJBH-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Container&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="5cyIJQOkxbvtP1_lE-he-1" vertex="1">
+          <mxGeometry x="380" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="UUKufnrdPQVwfDHnb88M" name="Declarative">
+    <mxGraphModel dx="880" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vLXKAygHy4ybBzNjCzTu-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Npod9BkxsVqJ67HXp79C-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Npod9BkxsVqJ67HXp79C-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;I want to update the frontend container&#39;s version to 2.0&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="160" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Npod9BkxsVqJ67HXp79C-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Change the Config-file to version 2.0 and leave everything up to K8s&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="280" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jh4QaRRUprOvUMfqIxaY-1" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: 18px; background-color: initial;&quot;&gt;I don&#39;t care about my current state, I just want this thing to be&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="540" y="230" width="255" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6tI0hGwdXpgub5qqAFZ5-1" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;&lt;b&gt;Declarative Deployment&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="20" y="50" width="240" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="7J72JN5sseezI_5USTzd" name="Desired2">
+    <mxGraphModel dx="1038" dy="440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3NUcFBcmgfBvBnGH6tkt-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="115" y="280" width="395" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="3NUcFBcmgfBvBnGH6tkt-3" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Dashboard&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="120" y="240" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3NUcFBcmgfBvBnGH6tkt-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Container&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="120" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3NUcFBcmgfBvBnGH6tkt-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Container&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3NUcFBcmgfBvBnGH6tkt-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Container&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3NUcFBcmgfBvBnGH6tkt-7" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Container&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="250" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3NUcFBcmgfBvBnGH6tkt-8" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Container&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3NUcFBcmgfBvBnGH6tkt-9" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Container&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3NUcFBcmgfBvBnGH6tkt-10" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Container&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="380" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3NUcFBcmgfBvBnGH6tkt-11" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Container&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3NUcFBcmgfBvBnGH6tkt-12" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Container&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="380" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XTw7QhycF2Wtz_rioZ9w-3" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="30" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XTw7QhycF2Wtz_rioZ9w-4" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;check current state&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="240" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XTw7QhycF2Wtz_rioZ9w-5" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Dashboard&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="120" y="240" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QEBYmjrAmOepISfYwjNv-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QEBYmjrAmOepISfYwjNv-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QEBYmjrAmOepISfYwjNv-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;I want to update the frontend container&#39;s version to 2.0&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="40" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QEBYmjrAmOepISfYwjNv-3" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Change the Config-file to version 2.0 and leave everything up to K8s&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="160" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QEBYmjrAmOepISfYwjNv-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.519;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QEBYmjrAmOepISfYwjNv-3" target="3NUcFBcmgfBvBnGH6tkt-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QEBYmjrAmOepISfYwjNv-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="120" y="580" width="395" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="QEBYmjrAmOepISfYwjNv-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Container&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
+          <mxGeometry x="125" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QEBYmjrAmOepISfYwjNv-7" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Container&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QEBYmjrAmOepISfYwjNv-8" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Container&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QEBYmjrAmOepISfYwjNv-9" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Container&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
+          <mxGeometry x="255" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QEBYmjrAmOepISfYwjNv-10" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Container&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QEBYmjrAmOepISfYwjNv-11" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Container&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QEBYmjrAmOepISfYwjNv-12" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Container&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
+          <mxGeometry x="385" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QEBYmjrAmOepISfYwjNv-13" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Container&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QEBYmjrAmOepISfYwjNv-14" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Container&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
+          <mxGeometry x="385" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QEBYmjrAmOepISfYwjNv-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.482;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3NUcFBcmgfBvBnGH6tkt-9" target="QEBYmjrAmOepISfYwjNv-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QEBYmjrAmOepISfYwjNv-16" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Changed Current State To &lt;b&gt;Desired State&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="347.5" y="540" width="195" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QEBYmjrAmOepISfYwjNv-17" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Updated the frontend container&#39;s to version to 2.0&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="660" width="320" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
