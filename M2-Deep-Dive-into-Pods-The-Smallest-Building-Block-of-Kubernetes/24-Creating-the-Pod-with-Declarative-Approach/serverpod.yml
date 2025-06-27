@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: serverpod-withfile
+spec:
+  containers:
+  - image: habib80246/server
+    name: server
+    ports:
+    - containerPort: 3000
